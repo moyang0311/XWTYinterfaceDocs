@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base:'./',
   srcDir:"docs",
   title: "玄武通云",
   description: "玄武通云开放平台接口文档",
